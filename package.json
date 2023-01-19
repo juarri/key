@@ -27,5 +27,9 @@
 		"typescript": "^4.9.3",
 		"vite": "^4.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@fontsource/vollkorn": "^4.5.14",
+		"svelte-french-toast": "^1.0.3"
+	}
 }

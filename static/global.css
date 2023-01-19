@@ -1,0 +1,14 @@
+:root {
+	--main: #ffb400;
+	--secondary: ;
+
+	--bg: #efe7e1;
+	--bg-light: ;
+}
+
+body {
+	background-color: #fff;
+
+	font-family: 'Vollkorn', serif;
+	line-height: 1;
+}
