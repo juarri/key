@@ -16,7 +16,7 @@ const characterCodes = Array.from(Array(26)).map((_, i) => i + 97);
 export const lowercaseCharacters = characterCodes.map((code) => String.fromCharCode(code));
 export const uppercaseCharacters = lowercaseCharacters.map((letter) => letter.toUpperCase());
 
-export const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+export const numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
 export const symbols = ['!', '@', '#', '$', '%', '^', '&', '*'];
 
 type generatePasswordParameters = {
